@@ -1,6 +1,6 @@
 {
   "name": "quotable",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The npm package for api.quotable.io",
   "main": "index.js",
   "author": "raxraj",
