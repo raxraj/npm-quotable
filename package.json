@@ -1,8 +1,13 @@
 {
   "name": "quotable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The npm package for api.quotable.io",
-  "keywords": ["quotable", "random quotes", "npm-quotable", "api.quotable.io"],
+  "keywords": [
+    "quotable",
+    "random quotes",
+    "npm-quotable",
+    "api.quotable.io"
+  ],
   "homepage": "https://github.com/raxraj/npm-quotable",
   "bugs": {
     "url": "https://github.com/raxraj/npm-quotable/issues",
