@@ -132,4 +132,4 @@ console.log(aNewQuote);
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/raxraj/fast2sms/issues). You can also take a look at the [contributing guide](https://github.com/raxraj/fast2sms/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/raxraj/npm-quotable/issues). You can also take a look at the [contributing guide](https://github.com/raxraj/npm-quotable/blob/master/CONTRIBUTING.md).

@@ -2,6 +2,16 @@
   "name": "quotable",
   "version": "1.0.0",
   "description": "The npm package for api.quotable.io",
+  "keywords": ["quotable", "random quotes", "npm-quotable", "api.quotable.io"],
+  "homepage": "https://github.com/raxraj/npm-quotable",
+  "bugs": {
+    "url": "https://github.com/raxraj/npm-quotable/issues",
+    "email": "ashutosh.kumar15@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raxraj/npm-quotable/issues"
+  },
   "main": "index.js",
   "author": "raxraj",
   "license": "MIT",
