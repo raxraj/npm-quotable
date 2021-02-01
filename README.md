@@ -31,7 +31,7 @@ $ yarn add quotable --save
 ```
 
 ## Methods
-In this version 0.0.1, only one method is supported, but we're looking forward for more awesome way of fetching quotes from the quotable API.
+In this version 1.0.0, only one method is supported, but we're looking forward for more awesome way of fetching quotes from the quotable API.
 
 All methods are available under the quotable object. Import the package in your project.
 
