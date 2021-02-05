@@ -107,7 +107,7 @@ test('Returns Quote with the given authorId zgMVt2guVo7p or qsaptKSHuLDU', async
         tags: expect.any(Array)
     });
     expect(response.return).toBe(true);
-    // expect(["Zig Ziglar","Laozi"]).toContain(response.author)
+    expect(["Zig Ziglar","Laozi"]).toContain(response.author)
 });
 
 test('Returns Quote with the given authorId Zig Ziglar or Laozi', async () => {
@@ -122,5 +122,5 @@ test('Returns Quote with the given authorId Zig Ziglar or Laozi', async () => {
         tags: expect.any(Array)
     });
     expect(response.return).toBe(true);
-    // expect(["Zig Ziglar","Laozi"]).toContain(response.author)
+    expect(["Zig Ziglar","Laozi"]).toContain(response.author)
 });
