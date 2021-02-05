@@ -121,6 +121,50 @@ console.log(aNewQuote);
 */
 ```
 
+### List Quotes
+Get a paginated list of all quotes. This method supports several filter and sorting options.
+`getQuotes()` is used to list the quotes.
+
+```js
+const quotes = await quotable.getQuotes() //inside an async function
+
+console.log(quotes)
+/*
+{
+  // The number of quotes returned by this request
+  count: number
+  // The total number of quotes matching this request
+  totalCount: number
+  // The index of the last quote returned. When paginating through results,
+  // this value would be used as the `skip` parameter when requesting the next
+  // "page" of results.
+  lastItemIndex: number
+  // The array of quotes
+  results: Array<{
+    _id: string
+    // The quotation text
+    content: string
+    // The full name of the author
+    author: string
+    // The length of quote (number of characters)
+    length: number
+    // An array of tag names for this quote
+    tags: string[]
+  }>
+}
+*/
+```
+__It supports various options, listed below__
+
+| param     | type     | Description                                                                                                                                                                                                                                                                                                      |
+| :-------- | :------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| authorId  | `String` | Filter quotes by author ID.                                                                                                                                                                                                                                                                                      |
+| limit     | `Int`    | `Min: 1` `Max: 100` `Default: 20` <br> The number of quotes to return per request. (for pagination).                                                                                                                                                                                                             |
+| skip      | `Int`    | `Min: 0` `Default: 0` <br>  The number of items to skip (for pagination).                                                                                                                                                                                                                                        |
+| maxLength | `Int`    | The maximum Length in characters ( can be combined with `minLength` )                                                                                                                                                                                                                                            |
+| minLength | `Int`    | The minimum Length in characters ( can be combined with `maxLength` )                                                                                                                                                                                                                                            |
+| tags      | `String` | Filter quotes by tag(s). Takes a list of one or more tag names, separated by a comma (meaning `AND`) or a pipe (meaning `OR`). A comma separated list will match quotes that have **_all_** of the given tags. While a pipe (`\|`) separated list will match quotes that have **_either_** of the provided tags. |
+
 
 ## Author
 
