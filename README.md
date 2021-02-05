@@ -4,7 +4,8 @@ Quotable is free, open source quotations API. This package is built on top of [Q
 - [Servers](#servers)
 - [Installation](#installation)
 - [Methods](#methods)
-    - [getRandomQuote()](#getRandomQuote())
+    - [Get random quote](#get-random-quote)
+    - [List quotes](#list-quotes)
 - [Author](#author)
 - [Contributing](#contributing)
 
@@ -31,7 +32,7 @@ $ yarn add quotable --save
 ```
 
 ## Methods
-In this version 1.0.0, only one method is supported, but we're looking forward for more awesome way of fetching quotes from the quotable API.
+In this version 1.1.0, only two methods are supported, but we're looking forward for more awesome way of fetching quotes from the quotable API.
 
 All methods are available under the quotable object. Import the package in your project.
 
@@ -39,7 +40,7 @@ All methods are available under the quotable object. Import the package in your 
 const quotable = require('quotable');
 ```
 
-### getRandomQuote()
+### Get random Quote
 Looking for a random quote for your project, want to greet user with some awesome but new quote everytime. Well this is the best way to achieve this.
 
 Just call the `getRandomQuote()`, use the awesome async/await within your `asynchronous` functions.
